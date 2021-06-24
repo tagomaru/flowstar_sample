@@ -1,4 +1,4 @@
-# Flow* sample
+# Flow* Sample
 This repository is for understanding [Flow*](https://flowstar.org/) with some demos. Please note this is not a official repository of Flow*.
 
 ## Flow* version
