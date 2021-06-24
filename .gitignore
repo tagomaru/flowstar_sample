@@ -31,7 +31,4 @@
 *.out
 *.app
 
-/models/outputs/*
-/models/images/*
-/models/counterexamples/*
 .DS_Store
