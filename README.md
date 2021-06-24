@@ -6,7 +6,7 @@ This repository's [Flow*](https://flowstar.org/) is versoin [2.1.0](https://www.
 
 ## Installation
 ```
-git clone https://github.com/tagomaru/flowstar.git
+git clone https://github.com/tagomaru/flowstar_sample.git
 cd flowstar
 docker build -t flowstar -f ./Dockerfile .
 ```
