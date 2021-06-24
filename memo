@@ -1,0 +1,18 @@
+https://flowstar.org/dowloads/
+https://home.cs.colorado.edu/~xich8622/manual/manual-2.0.0.pdf
+
+これもよさそう？
+https://home.cs.colorado.edu/~xich8622/papers/thesis.pdf
+https://www.sciencedirect.com/topics/computer-science/hybrid-automaton
+
+
+$ docker build -t flowstar -f ./Dockerfile .
+
+# hybrid system のサンプルを実行
+$ docker run --rm -it -v "${PWD}/models:/models/" flowstar bash -c "cd /models; cat /models/hybrid_example1.model | /flowstar/flowstar"
+
+# 論文の Figure2 
+$ docker run --rm -it -v "${PWD}/models:/models/" flowstar bash -c "cd /models; cat /models/figure2_dnn_to_hybrid.model | /flowstar/flowstar"
+
+# sigmod demo
+./s
